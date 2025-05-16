@@ -1,0 +1,73 @@
+# Arquivos de checkpoint do Spark
+*/_checkpoint/
+*/_checkpoints/
+**/checkpoint/
+**/checkpoints/
+
+# Arquivos temporários do Spark
+**/.spark-staging/
+**/spark-warehouse/
+
+# Arquivos de metadados
+**/_metadata
+**/_common_metadata
+**/_SUCCESS
+
+# Arquivos CRC
+**/*.crc
+
+# Diretórios de dados processados
+# Comentado para permitir versionamento dos arquivos Parquet
+# data/parquet/
+
+# Arquivos Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Ambientes virtuais
+venv/
+ENV/
+env/
+
+# Logs
+*.log
+logs/
+
+# Arquivos de configuração local
+.env
+.env.local
+
+# Arquivos de IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+
+# Arquivos Parquet
+
+*.parquet
+
+data/processados/clientes
+data/processados/transacoes
+data/parquet/checkpoints
+data/parquet/transacoes

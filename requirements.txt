@@ -1,0 +1,6 @@
+kafka-python==2.0.2
+pyspark==3.3.0
+pandas==1.5.3
+numpy==1.24.3
+# Adicionando o conector Spark-Kafka
+spark-sql-kafka-0-10==3.3.0

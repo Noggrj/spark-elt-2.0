@@ -1,0 +1,2 @@
+v1
+{"path":"file:///home/jovyan/work/data/parquet/clientes/data_cadastro=__HIVE_DEFAULT_PARTITION__/part-00000-a89f050b-6fe5-41dd-96bf-4b3c108e57c0.c000.snappy.parquet","size":2422,"isDir":false,"modificationTime":1747373181068,"blockReplication":1,"blockSize":33554432,"action":"add"}
