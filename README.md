@@ -12,7 +12,7 @@ O projeto é composto por:
 - **Spark**: Engine de processamento para transformação dos dados
 - **Airflow**: Orquestrador de fluxos de trabalho para automação de tarefas
  
-![Arquitetura do Projeto](images/elt-realtime.2.0.png)
+<img src="images/elt-realtime.2.0.png" alt="Arquitetura do Projeto" width="75%" />
 
 ## 📁 Estrutura do Projeto
 
