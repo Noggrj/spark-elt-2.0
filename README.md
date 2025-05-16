@@ -60,6 +60,8 @@ O projeto é composto por:
 - [Docker](https://www.docker.com/) - Containerização da aplicação
 - [Jupyter Base Notebook (imagem Docker)](https://hub.docker.com/r/jupyter/pyspark-notebook) - Ambiente interativo
 
+<img src="docs/diagram.2.0.png" alt="Arquitetura do Projeto" width="75%" />
+
 ---
 
 ## 📦 Instalação e Execução (via Docker)
