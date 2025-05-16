@@ -3,7 +3,7 @@
 
 Este projeto implementa uma arquitetura moderna de streaming de dados voltada para o processamento em tempo real de transações financeiras simuladas. Ele integra tecnologias robustas e escaláveis como **Apache Kafka**, **Apache Spark (PySpark)** e **Apache Airflow**, proporcionando uma pipeline eficiente e modular para ingestão, transformação e orquestração de dados transacionais.
 
-✨New✨: Com a nova Feature os dados são persistidos em formato parquet, e froram adicionandos teste com PyTest
+✨New✨: Com a nova Feature os dados são persistidos em formato parquet, e foram adicionandos teste com PyTest.
 
 ## 🏗️ Arquitetura
 O projeto é composto por:
