@@ -11,7 +11,7 @@ O projeto é composto por:
 - **Kafka**: Middleware de mensageria para streaming de dados
 - **Spark**: Engine de processamento para transformação dos dados
 - **Airflow**: Orquestrador de fluxos de trabalho para automação de tarefas
- 
+- **Parquet**: Arquivos Persistidos em formato Parquet
 <img src="images/elt-realtime.2.0.png" alt="Arquitetura do Projeto" width="75%" />
 
 ## 📁 Estrutura do Projeto
