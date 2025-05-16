@@ -118,17 +118,6 @@ make lint-fix        # Aplica formatação com black, isort
 make check-init      # Verifica arquivos __init__.py nas pastas
 ```
 
-## 🌐 Webservice Kafka
-
-O projeto agora inclui um webservice para interagir com o Kafka através de uma API REST.
-
-### Endpoints disponíveis:
-
-- `GET /`: Página inicial com informações sobre os endpoints
-- `GET /status`: Verifica o status da conexão com o Kafka
-- `GET /mensagens/{topico}`: Obtém as últimas mensagens de um tópico
-- `POST /publicar/{topico}`: Publica uma mensagem em um tópico
-
 ### Executando o webservice:
 
 ```bash

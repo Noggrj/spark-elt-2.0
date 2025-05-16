@@ -4,3 +4,6 @@ pandas==1.5.3
 numpy==1.24.3
 # Adicionando o conector Spark-Kafka
 spark-sql-kafka-0-10==3.3.0
+pytest==7.3.1
+pytest-cov==4.1.0
+mock==5.0.2

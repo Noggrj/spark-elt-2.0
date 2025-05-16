@@ -12,8 +12,6 @@ HOST_WORKDIR=$(shell cd && pwd)
 # Comando para build da imagem
 build:
 	@echo " Limpando pasta logs..."
-	@if exist logs rmdir /s /q logs
-	@mkdir logs
 	@echo " Construindo imagem Docker $(IMAGE_NAME)..."
 	docker build --no-cache -t $(IMAGE_NAME) .
 
@@ -116,3 +114,20 @@ start-no-processing:
 	@echo "✅ Infraestrutura iniciada sem processamento automático"
 	@echo "👉 Acesse o Airflow em: http://localhost:8081"
 	@echo "👉 Acesse o Kafka UI em: http://localhost:8080"
+
+
+# Comandos para testes
+test:
+	pytest
+
+test-unit:
+	pytest tests/unit
+
+test-integration:
+	pytest tests/integration
+
+test-system:
+	pytest tests/system
+
+test-coverage:
+	pytest --cov=. --cov-report=term --cov-report=html

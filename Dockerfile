@@ -5,7 +5,7 @@ WORKDIR /home/jovyan/work
 
 # Instala dependências adicionais
 RUN pip install --no-cache-dir pyspark faker numpy pandas polars \
-    flake8 isort black kafka-python confluent-kafka flask
+    flake8 isort black kafka-python confluent-kafka flask pytest pytest-cov mock
 
 # Garante que o Python encontre a pasta src/ como pacote
 ENV PYTHONPATH=/home/jovyan/work
